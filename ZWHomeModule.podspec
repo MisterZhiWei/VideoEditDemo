@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZWHomeModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZWHomeModule.'
+  s.summary          = 'This is ZWHomeModule.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,11 +25,12 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MisterZhiWei' => 'misterzhiwei@outlook.com' }
+# pod来源
   s.source           = { :git => 'https://github.com/MisterZhiWei/ZWHomeModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+# 支持的iOS系统版本
   s.ios.deployment_target = '8.0'
-
+# 需要pod下来的文件，也就是想给别人的文件
   s.source_files = 'ZWHomeModule/Classes/**/*'
   
   # s.resource_bundles = {

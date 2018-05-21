@@ -1,0 +1,22 @@
+{
+  "name": "ZWHomeModule",
+  "version": "0.1.0",
+  "summary": "A short description of ZWHomeModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MisterZhiWei/ZWHomeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MisterZhiWei": "misterzhiwei@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/MisterZhiWei/ZWHomeModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZWHomeModule/Classes/**/*"
+}

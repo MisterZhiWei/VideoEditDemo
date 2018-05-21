@@ -1,0 +1,6 @@
+framework module ZWHomeModule {
+  umbrella header "ZWHomeModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
